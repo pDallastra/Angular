@@ -1,0 +1,8 @@
+p {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: pink;
+    color: red;
+    text-align: center;
+}
