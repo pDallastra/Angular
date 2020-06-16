@@ -1,0 +1,9 @@
+<app-header (selectedUrl)="selectUrl($event)"></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes *ngIf="urlSelected == 'receipe'"></app-recipes>
+      <app-shopping-list *ngIf="urlSelected == 'shopping-list'"></app-shopping-list>
+    </div>
+  </div>
+</div>
